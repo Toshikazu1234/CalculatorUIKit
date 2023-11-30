@@ -26,7 +26,6 @@
 		5093ACB02B117861004A9E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5093ACB22B117861004A9E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5093ACB82B12A659004A9E70 /* OperationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationButton.swift; sourceTree = "<group>"; };
-		50F6C0BF2B18080800DA90F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +58,6 @@
 		5093ACA32B11785E004A9E70 /* CalculatorUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				50F6C0BF2B18080800DA90F0 /* README.md */,
 				5093ACA42B11785E004A9E70 /* AppDelegate.swift */,
 				5093ACA62B11785E004A9E70 /* SceneDelegate.swift */,
 				5093ACAD2B117861004A9E70 /* Assets.xcassets */,
