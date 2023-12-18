@@ -11,8 +11,8 @@ final class ViewController: UIViewController {
     
     @IBOutlet private weak var display: UILabel!
     private var displayNumber: Double? {
-        guard let n = Double(display.text!) else { return nil }
-        return Double(n)
+        guard let text = display.text else { return nil }
+        return Double(text)
     }
     @IBOutlet private var roundButtons: [UIButton]!
     @IBOutlet private weak var addButton: OperationButton!
