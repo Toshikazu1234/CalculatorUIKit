@@ -70,7 +70,7 @@ final class ViewController: UIViewController {
         let text = display.text!
         if text.last == "." {
             display.text!.removeLast()
-        } else if text.last != "." && !text.contains(".") {
+        } else if !text.contains(".") {
             display.text! += "."
         }
     }
