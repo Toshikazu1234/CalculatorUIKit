@@ -11,8 +11,7 @@ final class ViewController: UIViewController {
     
     @IBOutlet private weak var display: UILabel!
     private var displayNumber: Double? {
-        guard let text = display.text else { return nil }
-        return Double(text)
+        return Double(display.text!)!
     }
     @IBOutlet private var roundButtons: [UIButton]!
     @IBOutlet private weak var addButton: OperationButton!
@@ -156,7 +155,7 @@ final class ViewController: UIViewController {
     }
     
     @IBAction private func allClear() {
-        previousNumber = 0
+        previousNumber = nil
         display.text = "0"
         operation = .none
         deselectOperationButtons()
