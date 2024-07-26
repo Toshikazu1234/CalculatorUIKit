@@ -11,7 +11,7 @@ final class ViewController: UIViewController {
     
     @IBOutlet private weak var display: UILabel!
     private var displayNumber: Double? {
-        return Double(display.text!)!
+        return Double(display.text!)
     }
     @IBOutlet private var roundButtons: [UIButton]!
     @IBOutlet private weak var addButton: OperationButton!
