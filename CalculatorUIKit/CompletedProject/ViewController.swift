@@ -139,7 +139,6 @@ final class ViewController: UIViewController {
         } else {
             display.text = "\(result)"
         }
-        self.previousNumber = result
     }
     
     @IBAction private func togglePositiveNegative() {
